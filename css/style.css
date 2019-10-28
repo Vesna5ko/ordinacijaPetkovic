@@ -59,19 +59,52 @@ body {
 
 #video-play {
     position: relative;
-  min-height: 200px;
+    min-height: 200px;
     background: url('../img/glasses_3jpg.jpg');
     background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position: 0 -300px;
-  text-align: center;
-  color: #fff;
+    background-repeat: no-repeat;
+    background-position: 0 -300px;
+    text-align: center;
+    color: #fff;
 }
 
 #video-play a {
     color: #fff;
+}
+
+img {
+    width: 560px;
+    height: 560px;
+}
+
+#page-header {
+    height: 250px;
+    background: url('../img/heder\ slika\ 2.jpg');
+    background-position: 0 -1770px;
+    background-attachment: fixed;
+    color:rgb(201, 241, 206);
+    border-bottom: 1px #eee solid;
+    padding-top: 50px;
+}
+
+.about-img {
+    margin-top: -50px;
+}
+#faq .card {
+    border: #444;
   }
-  img{
-      width: 560px;
-      height: 560px;
+  
+  #faq a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  #faq .card-body,
+  #faq .card-header {
+    background: #333;
+  }
+  
+  #main-footer {
+    background: #000;
+    color: #fff;
   }

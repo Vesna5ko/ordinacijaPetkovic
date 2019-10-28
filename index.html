@@ -9,7 +9,7 @@
         integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
         integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" />
+    
     <link rel="stylesheet" href="css/style.css">
 
     <title>Ordinacija</title>
@@ -17,7 +17,7 @@
 
 <body>
     <!-------------------------------------------NAVBAR------------------------------------------------------------------------>
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top justify-content-between">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top justify-content-between">
         <div class="container">
             <a href="index.html" class="navbar-brand">Ordinacija</a>
             <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
@@ -35,7 +35,7 @@
                         <a href="onama.html" class="nav-link">O nama</a>
                     </li>
                     <li class="nav-item">
-                        <a href="radnja.html" class="nav-link">Radnja</a>
+                        <a href="radnja.html" class="nav-link">Prodavnica</a>
                     </li>
                     <li class="nav-item">
                         <a href="kontakt.html" class="nav-link">Kontakt</a>
@@ -180,63 +180,7 @@
         </div>
         </section>
 
-        <!---------------------------------foto galery------------------------------------>
-        <section id="gallery" class="py-5">
-            <div class="container">
-                <h1 class="text-center">Galerija</h1>
-                <p class="text-center">Uspešne priče</p>
-                <div class="row mb-4">
-                    <div class="col-md-4">
-                        <a href="https://source.unsplash.com/xe68QiMaDrQ/560x560" data-toggle="lightbox"
-                            data-gallery="img-gallery" data-height="560" data-width="560">
-                            <img src="https://source.unsplash.com/xe68QiMaDrQ/560x560" alt="<p>Lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit. Pariatur quisquam asperiores optio
-                                    esse molestias. Non minima rem sint. Voluptatibus,
-                                    fuga?</p>" class="img-fluid">
-                            
-                        </a>
-                    </div>
-
-                    <div class="col-md-4">
-                        <a href="https://source.unsplash.com/rDEOVtE7vOs/560x560" data-toggle="lightbox"
-                            data-gallery="img-gallery" data-height="560" data-width="560">
-                            <img src="https://source.unsplash.com/rDEOVtE7vOs/560x560" alt="" class="img-fluid">
-                        </a>
-                    </div>
-
-                    <div class="col-md-4">
-                        <a href="https://source.unsplash.com/vMV6r4VRhJ8/560x560" data-toggle="lightbox"
-                            data-gallery="img-gallery" data-height="560" data-width="560">
-                            <img src="https://source.unsplash.com/vMV6r4VRhJ8/560x560" alt="" class="img-fluid">
-                        </a>
-                    </div>
-                </div>
-
-                <div class="row mb-4">
-                    <div class="col-md-4">
-                        <a href="https://source.unsplash.com/u3WmDyKGsrY/560x560" data-toggle="lightbox"
-                            data-gallery="img-gallery" data-height="560" data-width="560">
-                            <img src="https://source.unsplash.com/u3WmDyKGsrY/560x560" alt="" class="img-fluid">
-                        </a>
-                    </div>
-
-                    <div class="col-md-4">
-                        <a href="https://source.unsplash.com/sibVwORYqs0/564x564" data-toggle="lightbox"
-                            data-gallery="img-gallery" data-height="560" data-width="560">
-                            <img src="https://source.unsplash.com/sibVwORYqs0/560x560" alt="" class="img-fluid">
-                        </a>
-                    </div>
-
-                    <div class="col-md-4">
-                        <a href="https://source.unsplash.com/GBgp6Iy16lc/560x560" data-toggle="lightbox"
-                            data-gallery="img-gallery" data-height="560" data-width="560">
-                            <img src="https://source.unsplash.com/GBgp6Iy16lc/560x560" alt="" class="img-fluid">
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
+       
 
         <!------------------------------------Newslwter------------------------------------->
         <section id="newsletter" class="text-center p-5 bg-dark text-white">
@@ -293,7 +237,7 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
             integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous">
         </script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
+        
 
         <script>
             // Get the current year for the copyright
@@ -305,11 +249,7 @@
                 pause: 'hover'
             });
 
-            // Lightbox Init
-            $(document).on('click', '[data-toggle="lightbox"]', function (event) {
-                event.preventDefault();
-                $(this).ekkoLightbox();
-            });
+            
 
             // Video Play
             $(function () {
