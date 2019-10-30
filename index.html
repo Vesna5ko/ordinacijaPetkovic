@@ -179,6 +179,36 @@
             </div>
         </div>
         </section>
+        <!-------------------------------------------Osoblje---------------------------------------------------------->
+    <section id="staff" class="py-5 text-center ">
+        <div class="container">
+            <h1>Naše osoblje</h1>
+            <hr>
+            <div class="row">
+                <div class="col-md-3">
+                   <img class="img-fluid rounded-circle mb-2" src="img/person1.jpg" alt="">
+                    <h4> dr Lorem Ipsum</h4>
+                    <small>Lorem ipsum</small>
+                </div>
+                <div class="col-md-3">
+                    <img class="img-fluid rounded-circle mb-2" src="img/person2.jpg" alt="">
+                    <h4> dr Lorem Ipsum</h4>
+                    <small>Lorem ipsum</small>
+                </div>
+                <div class="col-md-3">
+                    <img class="img-fluid rounded-circle mb-2" src="img/person3.jpg" alt="">
+                    <h4> dr Lorem Ipsum</h4>
+                    <small>Lorem ipsum</small>
+                </div>
+                <div class="col-md-3">
+                    <img class="img-fluid rounded-circle mb-2" src="img/person4.jpg" alt="">
+                    <h4> dr Lorem Ipsum</h4>
+                    <small>Lorem ipsum</small>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
        
 
@@ -200,6 +230,8 @@
                 </div>
             </div>
         </section>
+
+        
         <!--------------------foooter------------------------------------------>
 
         <footer id="main-footer" class="text-center p-4">
@@ -236,36 +268,8 @@
         </script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
             integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous">
-        </script>
-        
-
-        <script>
-            // Get the current year for the copyright
-            $('#year').text(new Date().getFullYear());
-
-            // Configure Slider
-            $('.carousel').carousel({
-                interval: 6000,
-                pause: 'hover'
-            });
-
-            
-
-            // Video Play
-            $(function () {
-                // Auto play modal video
-                $(".video").click(function () {
-                    var theModal = $(this).data("target"),
-                        videoSRC = $(this).attr("data-video"),
-                        videoSRCauto = videoSRC +
-                        "?modestbranding=1&rel=0&controls=0&showinfo=0&html5=1&autoplay=1";
-                    $(theModal + ' iframe').attr('src', videoSRCauto);
-                    $(theModal + ' button.close').click(function () {
-                        $(theModal + ' iframe').attr('src', videoSRC);
-                    });
-                });
-            });
-        </script>
+        </script> 
+        <script src="main.js" ></script>
 </body>
 
 </html>
