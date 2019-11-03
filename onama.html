@@ -20,7 +20,7 @@
 </head>
 
 <body>
-  <!---------------NAVBAR------------------------------------------------------------------------>
+    <!---------------NAVBAR------------------------------------------------------------------------>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top justify-content-between">
         <div class="container">
             <a href="index.html" class="navbar-brand">Ordinacija</a>
@@ -166,17 +166,23 @@
         integrity="sha256-zUQGihTEkA4nkrgfbbAM1f3pxvnWiznBND+TuJoUv3M=" crossorigin="anonymous"></script>
 
 
+    <script src="main.js"> </script>
 
-        <script>
-            // Get the current year for the copyright
-            $('#year').text(new Date().getFullYear());
+    <script type="text/javascript">
+        $(document).ready(function () {
 
             $('.slider').slick({
-              infinite: true,
-              slideToShow: 1,
-              slideToScroll: 1
+                infinite: true,
+                slideToShow: 1,
+                slideToScroll: 1
             });
-          </script>
+
+
+        });
+    </script>
+
+
+
 
 
 </body>
